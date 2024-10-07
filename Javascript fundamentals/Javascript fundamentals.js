@@ -354,17 +354,92 @@
 
 // closures in asynchronous programming and in callbacks
 
-function fetchData(url) {
-    let data = "Fetching data from the following URL: " + url;
+// function fetchData(url) {
+//     let data = "Fetching data from the following URL: " + url;
 
-    setTimeout(() => {
-        console.log(data);
-    }, 2000);
-}
+//     setTimeout(() => {
+//         console.log(data);
+//     }, 2000);
+// }
 
-fetchData("https://example.com");
+// fetchData("https://example.com");
 
 
+                        // Common pitfalls with closures || working closures with loops 
+
+// for(let i = 1; i <= 5; i++) {
+//     setTimeout(() => {
+//         console.log(i);
+//     }, i * 2000);
+// }                      
+
+
+// function multiply(a) {
+//     return function(b) {
+//         return a * b;
+//     }
+// }
+
+// const multiply2 = multiply(2);
+// console.log(multiply2(5));
+
+
+// function outerFunction() {
+//     let outerValue = "This is outerfunction value";
+
+//     function innerFunction() {
+//         console.log(outerValue);
+//     }
+
+//     return innerFunction;
+// };
+
+// myClosure = outerFunction();
+// myClosure();
+
+
+// function counter() {
+//     let count = 0;
+
+//     return function() {
+//         return count += 2;
+//     }
+// };
+
+// const increment = counter();
+// console.log(increment());
+// console.log(increment());
+
+
+// function fetchData(url) {
+//     let URL = "The data is fetching from the following URL: " + url;
+
+//     setTimeout(() => {
+//         console.log(URL);
+//     }, 3000);
+// };
+
+// fetchData("https://example.com")
+
+
+// for(let i = 1; i < 10; i++) {
+//     setTimeout(() => {
+//         console.log("The value of i after iterating through the loop: " , i);
+//     }, i * 1000);
+// };
+
+
+                            // Task for creating the function for password checking
+
+// function passwordChecker(password) {
+//     return function(input) {
+//         return input === password;
+//     }
+// };
+
+// const checkPassword = passwordChecker('securePassword123');
+// console.log(checkPassword('wrongPassword'));
+// console.log(checkPassword('securePassword123'));
 
 
 
