@@ -306,6 +306,7 @@
 
 
 // let's move to the next topic
+// closures
 
 
 
