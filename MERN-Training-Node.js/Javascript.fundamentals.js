@@ -292,17 +292,20 @@
 
 
 
-let promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('This is a successfull operation!');
-        reject(new Error('Whoops an error occurred!.'));
-    }, 2000);
-    console.log(1);
-});
-promise
-.then(result => console.log(result))
-.catch(error => console.log(error.message));
+// let promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve('This is a successfull operation!');
+//         reject(new Error('Whoops an error occurred!.'));
+//     }, 2000);
+//     console.log(1);
+// });
+// promise
+// .then(result => console.log(result))
+// .catch(error => console.log(error.message));
 
+
+
+// let's move to the next topic
 
 
 
