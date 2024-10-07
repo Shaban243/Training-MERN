@@ -463,6 +463,42 @@
 
 
 
+                        //  Higher order functions 
+// function as an argument
+// function applyOperation(a, b, operation) {
+//     return operation(a, b);
+// }
+
+//     function add(x, y) {
+//         return x + y;
+//     }
+
+//     function multiply(x, y) {
+//         return x * y;
+//     }
+          
+
+// console.log(applyOperation(2, 5, add));
+// console.log(applyOperation(2, 5, multiply));
+
+
+// function return a new function
+// function greet(greetings) {
+//     return function(name) {
+//         return (`${greetings}, ${name}`);
+//     }
+// }
+
+// const result = greet('Hello');
+// console.log(result('Muhammad Shaban!'));
+
+
+
+
+
+
+
+
 
 
 
