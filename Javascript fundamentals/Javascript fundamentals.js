@@ -523,7 +523,7 @@
 //     };
 // }
 
-// // Example usage:
+// //Task for composing the functions using reduceRight method of array
 // const add = (x) => x + 2;
 // const multiply = (x) => x * 3;
 
