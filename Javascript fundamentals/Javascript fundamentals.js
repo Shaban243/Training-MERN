@@ -305,7 +305,68 @@
 
 
 
-// let's move to the next topic
+                                    // -----------------------------------------//
+
+                                // let's move to the next topic ---- Closures
+
+// basic closure understanding
+// function outerFunction() {
+//     let outerValue = "This is outer function value";
+
+//     function innerFunction() {
+//         console.log(outerValue);
+//     }
+//     return innerFunction;
+// };
+
+// const myClosure = outerFunction();
+// myClosure();
+
+
+
+// function createCount() {
+//     let count = 0;
+
+//     return function() {
+//         return count += 1;
+//     }
+// };
+
+// const increment = createCount();
+// console.log(increment());
+// console.log(increment());
+
+
+// function getCount() {
+//     let count = 4;
+
+//     return function() {
+//         return count -= 1;
+//     }
+
+// };
+
+// const decrement = getCount();
+// console.log(decrement());
+// console.log(decrement());
+
+
+
+// closures in asynchronous programming and in callbacks
+
+function fetchData(url) {
+    let data = "Fetching data from the following URL: " + url;
+
+    setTimeout(() => {
+        console.log(data);
+    }, 2000);
+}
+
+fetchData("https://example.com");
+
+
+
+
 
 
 
