@@ -494,14 +494,59 @@
 
 
 
+        // Task for multiplying the number to its original number 
+
+// function makeMultiplier(n1) {
+//     return function(n2) {
+//         return n1 * n2;
+//     }
+// }
+
+// const result = makeMultiplier(10);
+// console.log(result(10));
 
 
+                // Task for creat custom for each function of array 
+// function customForEach(arr, callback) {
+//     for(let i = 0; i < arr.length(); i++) {
+//         callback(arr[i], i, arr);
+//     }
+// }
+
+// const numbers = [1, 2, 3];
+// numbers.forEach(num => console.log(num * 2));
 
 
+// function compose(...functions) {
+//     return function(value) {
+//         return functions.reduceRight((acc, fn) => fn(acc), value);
+//     };
+// }
+
+// // Example usage:
+// const add = (x) => x + 2;
+// const multiply = (x) => x * 3;
+
+// const combinedFunction = compose(multiply, add);
+// console.log(combinedFunction(5)); // Output: 21
 
 
+// function compose(...functions) {
+//     return function(value) {
+//         return functions.reduceRight((acc, fn) => fn(acc), value);
+//     }
+// }
 
+// const add = (x) => {
+//     return x + 2;
+// }
 
+// const multiply = (x) => {
+//     return x * 5;
+// }
+
+// const combinedFunctions = compose(multiply, add);
+// console.log(combinedFunctions(10));
 
 
 
