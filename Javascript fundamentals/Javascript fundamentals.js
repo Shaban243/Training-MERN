@@ -442,6 +442,25 @@
 // console.log(checkPassword('securePassword123'));
 
 
+                        // Task for event handlres with closures        
+
+// function createButtonHandler(label) {
+//     return {
+
+//         onClick: function () {
+//             console.log(`Button ${label} is clicked!`);
+//         },
+
+//         onHover: function () {
+//             console.log(`Hovering over the button ${label}`);
+//         }
+//     };
+// }
+
+// const handlers = createButtonHandler('submit');
+// handlers.onClick();
+// handlers.onHover();
+
 
 
 
